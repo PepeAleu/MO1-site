@@ -1,0 +1,596 @@
+
+@media screen and (min-width: 1920px) {
+    #headerImagenArribaID{
+        width: 1920px;
+        height: 682px;
+        background-image: url('../imagenes/1920/cabeceraArriba1920.jpg');
+        top: 0px;
+    }
+    #headerImagenAbajoID{
+        width: 1920px;
+        height: 1238px;
+        background-image: url('../imagenes/1920/cabeceraAbajo1920.jpg');  
+        top:682px;
+    }
+    /*    #headerImagenArribaID, #headerImagenAbajoID{
+            margin-left: -960px;
+        }*/
+}
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+    #headerImagenArribaID{
+        width: 1366px;
+        height: 485px;
+        background-image: url('../imagenes/1366/cabeceraArriba1366.jpg');
+        top: 0px;
+    }
+    #headerImagenAbajoID{
+        width: 1366px;
+        height: 881px;
+        background-image: url('../imagenes/1366/cabeceraAbajo1366.jpg');  
+        top:485px;
+    }
+    /*    #headerImagenArribaID, #headerImagenAbajoID{
+            margin-left: -683px;
+        }*/
+}
+@media screen and (min-width: 1280px) and (max-width: 1365px) {
+    #headerImagenArribaID{
+        width: 1280px;
+        height: 455px;
+        background-image: url('../imagenes/1280/cabeceraArriba1280.jpg');
+        top: 0px;
+    }
+    #headerImagenAbajoID{
+        width: 1280px;
+        height: 825px;
+        background-image: url('../imagenes/1280/cabeceraAbajo1280.jpg');  
+        top:455px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1279px) {
+    #headerImagenArribaID{
+        width: 800px;
+        height: 284px;
+        background-image: url('../imagenes/800/cabeceraArriba800.jpg');
+        top: 0px;
+    }
+    #headerImagenAbajoID{
+        width: 800px;
+        height: 516px;
+        background-image: url('../imagenes/800/cabeceraAbajo800.jpg');  
+        top:284px;
+    }
+}
+
+@font-face
+{
+    font-family: Thunder;
+    src: url('../fonts/A Love of Thunder.ttf'); /* IE9 */
+}
+@font-face
+{
+    font-family: Jonze;
+    src: url('../fonts/Jonze&JonzingDEMO-KCFonts.ttf'); /* IE9 */
+}
+#headerImagenArribaID, #headerImagenAbajoID{
+    position: absolute;
+}
+
+#wrap{
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    /*    background-color:#b0e0e6;*/
+}
+
+header{
+
+    margin-top: 0;
+    padding-top: 0;
+    z-index: 1;
+}
+header div.headerImagenArriba{
+    background-position: center;
+    background-repeat: no-repeat;
+    position:absolute;
+    z-index: 1;
+}
+header div.headerImagenAbajo{
+    background-position: center;
+    background-repeat: no-repeat;
+    position:absolute;
+    z-index: 6;
+}
+
+
+/*nav img.navNews{
+    background-position: center;
+    background-repeat: no-repeat;
+    position:relative;
+    z-index: 3;
+}*/
+/*nav img{
+    background-position: center;
+    background-repeat: no-repeat;
+    position:relative;
+}*/
+/*nav img.navMedia{
+    z-index: 2;
+}
+nav img.navTours{
+    z-index: 4;
+}
+
+nav img.navMerch{
+    z-index: 5;
+}*/
+
+.contenedorBody{
+    width: 100%;
+}
+.sectionPrincipal{
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 70%;
+    top: 20px;
+    float: left;
+    position: relative;
+    left:0px;
+    word-wrap: break-word; 
+}
+
+.sectionControl{
+    position: fixed;
+    bottom:0px;
+    z-index: 7;
+}
+
+.sectionDerecha{
+    float: right;
+    padding-right: 20px;
+    margin-right: 1%;
+    margin-bottom: 20px;
+    width: 300px;
+    top: 20px;
+    text-align: center;
+    float:right;
+}
+.sectionDerecha, .sectionPrincipal{
+    position:relative;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 6;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+}
+.sectionPrincipal p 
+{
+    margin-bottom: 20px;
+}
+footer div.footerImagen{
+    background-position: center;
+    background-repeat: no-repeat;
+    position:relative;
+    left:0;
+    width: 100%;
+    height: 496px;
+}
+
+/*++++++++++++++++++++++++++++++++++++ MEDIA +++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++ MEDIA +++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++ MEDIA +++++++++++++++++++++++++++++++++++++++*/
+
+div.media ol{
+    list-style-type: none;
+    position: relative;
+    /*   float: right;*/
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+div.media img{
+    margin: 0px 0px;
+    padding-bottom: 100px;
+    width:42%;
+    float: left;
+    background-color: #ccc;
+}
+
+
+
+div.media div.cancion {
+    /* Initially we don't want any height, and we want the contents to be hidden */
+    max-height: 20px;
+    overflow: hidden;
+    min-height: 20px;
+    /* Set our transitions up. */
+    -webkit-transition: max-height 0.8s;
+    -moz-transition: max-height 0.8s;
+    transition: max-height 0.8s;
+
+    /*    -moz-box-shadow:inset 0px 1px 0px 0px #aaaaaa;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #aaaaaa;
+        box-shadow:inset 0px 1px 0px 0px #aaaaaa;*/
+    /*    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');*/
+    background-color:#ededed;
+    /*    -webkit-border-top-left-radius:0px;
+        -moz-border-radius-topleft:0px;
+        border-top-left-radius:0px;
+        -webkit-border-top-right-radius:6px;
+        -moz-border-radius-topright:6px;
+        border-top-right-radius:6px;
+        -webkit-border-bottom-right-radius:6px;
+        -moz-border-radius-bottomright:6px;
+        border-bottom-right-radius:6px;
+        -webkit-border-bottom-left-radius:6px;
+        -moz-border-radius-bottomleft:6px;
+        border-bottom-left-radius:6px;*/
+    text-indent:0;
+    /*    border:1px solid #dcdcdc;*/
+    display:inline-block;
+    line-height:20px;
+    text-decoration:none;
+    text-align:center;
+    /*    text-shadow:1px 1px 1px #ce8e28;*/
+    cursor:pointer;
+    font-size:smaller;
+    padding: 10px;
+}
+div.media  div.cancion:hover {
+    /* On hover, set the max-height to something large. In this case there's an obvious limit. */
+    max-height: 1200px;
+    background:#ffce79;
+    cursor:pointer;
+    min-height: 20px;
+}
+/*div.media div.cancion:active{
+    position:relative;
+    top:1px;
+    cursor:pointer;
+}*/
+
+div.cancion div.tituloCancion{
+    color:#252525;
+    font-size: xx-large;
+    font-weight:bold;
+    font-style:normal;
+    line-height:20px;
+    margin-bottom: 20px;
+    font-family: Thunder, Arial;
+    padding: 0px;
+    text-align: left;
+}
+
+.tituloDiscos{
+    font-size: 300%;
+    position:relative; 
+    left:2%;
+    font-family: Thunder, Arial;
+    top: 20px;
+}
+/* This button was generated using CSSButtonGenerator.com */
+/*++++++++++++++++++++++++++++++++++++ PAGINACION +++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++ PAGINACION +++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++ PAGINACION +++++++++++++++++++++++++++++++++++++++*/
+
+.pagina{
+    list-style-type: none;
+    float: left;
+
+}
+.paginacionContenedor{
+    position: relative;
+    top:40px;
+    left:1%;
+}
+#paginacionContenedor li{
+    border:0; margin:0; padding:0;
+    font-size:large;
+    list-style:none;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#paginacionContenedor a{
+
+    margin-right:0px;
+    cursor:pointer;
+    height: 40px;
+    width: 20px;
+    float:left;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ffce79;
+    font-size: x-large;
+}
+#paginacionContenedor .previous-off,
+#paginacionContenedor .next-off {
+    color:#666666;
+    display:block;
+    float:left;
+    font-weight:bold;
+    pointer-events: none;
+    cursor: default;
+    width: 70px;
+    background-color: #ffce79;
+}
+#paginacionContenedor .next a,
+#paginacionContenedor .previous a {
+    font-weight:bold;
+
+    width: 70px;
+} 
+#paginacionContenedor a.active{
+    color:#ff0084;
+    font-weight:bold;
+    display:block;
+    float:left;
+
+
+}
+#paginacionContenedor a:link,
+#paginacionContenedor a:visited {
+    color:#0063e3;
+    display:block;
+    float:left;
+    text-decoration:none;
+}
+#paginacionContenedor a:hover{
+    background-color: #fff;
+}
+#paginacionContenedor .paginaActiva{
+    margin: -10px 0px 0px 0px;
+}
+
+/* ********************************************** MENU *********************************************/
+/* ********************************************** MENU *********************************************/
+/* ********************************************** MENU *********************************************/
+
+
+#cssmenu {
+    background: #f78f30;
+    width: 100%;
+    position: relative;
+    top: 86%;
+    left: 0px;
+    margin: auto;
+}
+#cssmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    display: block;
+    zoom: 1;
+}
+#cssmenu ul:after {
+    content: ' ';
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#cssmenu ul li {
+    float: left;
+    display: block;
+    padding: 0;
+
+}
+#cssmenu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    -webkit-transition: color .25s;
+    -moz-transition: color .25s;
+    -ms-transition: color .25s;
+    -o-transition: color .25s;
+    transition: color .25s;
+    cursor:pointer;
+}
+#cssmenu ul li a:hover {
+    color: #805025;
+}
+#cssmenu ul li a:hover:before {
+    width: 100%;
+}
+#cssmenu ul li a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: -3px;
+    top: 19px;
+    height: 6px;
+    width: 6px;
+    background: #ffffff;
+    opacity: .5;
+}
+#cssmenu ul li a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: #805025;
+    -webkit-transition: width .25s;
+    -moz-transition: width .25s;
+    -ms-transition: width .25s;
+    -o-transition: width .25s;
+    transition: width .25s;
+}
+#cssmenu ul li.last > a:after,
+#cssmenu ul li:last-child > a:after {
+    display: none;
+}
+#cssmenu ul li.active a {
+    color: #805025;
+}
+#cssmenu ul li.active a:before {
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    #cssmenu {
+        background: #a67557;
+        width: 100%;
+        position: absolute;
+        top: 15%;
+    }
+    #cssmenu ul li {
+        float: none;
+    }
+    #cssmenu ul li a {
+        width: 100%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    #cssmenu ul li a:after {
+        display: none;
+    }
+    #cssmenu ul li a:before {
+        height: 1px;
+        background: #ffffff;
+        width: 100%;
+        opacity: .2;
+    }
+    #cssmenu ul li.last > a:before,
+    #cssmenu ul li:last-child > a:before {
+        display: none;
+    }
+    .sectionPrincipal{
+        position: relative;
+        top: 230px;
+        left: 0px;
+        width: 95%;
+
+    }
+    .sectionDerecha{
+        display: none;
+    }
+    #headerImagenArribaID{
+        width: 100%;
+        height: auto;
+        background-image: none;
+        top: 0px;
+        z-index: 99;
+    }
+    #headerImagenAbajoID{
+        width: 100%;
+        height: 500px;
+        position: relative;
+        top: 0px;
+        background-image: none;  
+    }
+    #media h1{
+        font-size: large;
+        font-weight:normal;
+    }
+    .tituloDiscos{
+        font-size: 200%;
+
+    }
+    div.media img{
+        display: none;
+    }
+}
+/********************************** FORMULARIO *************************************/
+
+.formulario input[type="text"],.formulario textarea, .formulario input[type="email"]{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.formulario textarea{
+    height: 200px;
+}
+
+
+.avisoSucess, .avisoFail{
+    width: 98%;
+    padding: 10px;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: none;
+    margin: 5px;
+}
+.avisoFail{
+    background: rgba(221, 144, 144, 0.8);
+    border: 1px solid #d03c3c;
+    color:#6f2e2e;
+}
+.avisoSucess{
+    background: rgba(176, 215, 175, 0.8);
+    border: 1px solid #539251;
+    color:#225f21;
+}
+.cerrarSucess, .cerrarFail{
+    width: 16px;
+    height: 16px;
+    cursor:pointer;
+    float: right;
+}
+.cerrarSucess{
+    background-image: url('../imagenes/closeSucess.png');
+}
+.cerrarFail{
+    background-image: url('../imagenes/closeFail.png');
+}
+.loading{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: 100;
+    display: none;
+}
+.loadingIMG{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url('../imagenes/loading.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+//BIO
+
+img.bioIMG{
+    float: right;
+}
+div.bioCuerpo{
+    line-height:20px;
+    margin: 20px 0px;
+}
+div.titulo{
+    font-family: Thunder, 'Open Sans', sans-serif;
+    font-size: x-large;
+}
